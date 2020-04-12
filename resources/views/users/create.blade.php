@@ -5,6 +5,7 @@
         <div class="card">
             <div class="card-header">
                 <h5>注册</h5>
+                @include('shared._error')
             </div>
             <div class="card-body">
                 <form action="{{route('users.store')}}" method="POST">
